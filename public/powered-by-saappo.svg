@@ -1,0 +1,33 @@
+<svg width="200" height="100" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- "Powered By" text - muted grey/desaturated blue -->
+  <text x="100" y="25" font-family="Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#6b7280">Powered By</text>
+  
+  <!-- Cloud icon - dark blue -->
+  <ellipse cx="40" cy="45" rx="15" ry="10" fill="#1e40af"/>
+  <ellipse cx="30" cy="50" rx="8" ry="6" fill="#1e40af"/>
+  <ellipse cx="50" cy="50" rx="8" ry="6" fill="#1e40af"/>
+  
+  <!-- saappo.com text -->
+  <!-- s - dark blue -->
+  <circle cx="70" cy="65" r="4" fill="#1e40af"/>
+  
+  <!-- a - dark blue -->
+  <circle cx="85" cy="65" r="4" fill="#1e40af"/>
+  
+  <!-- a - light blue -->
+  <circle cx="100" cy="65" r="4" fill="#3b82f6"/>
+  
+  <!-- p - light blue (elongated/bubble-like) -->
+  <circle cx="115" cy="60" r="5" fill="#3b82f6"/>
+  <rect x="113" y="60" width="4" height="12" rx="2" fill="#3b82f6"/>
+  
+  <!-- p - light blue (elongated/bubble-like) -->
+  <circle cx="128" cy="60" r="5" fill="#3b82f6"/>
+  <rect x="126" y="60" width="4" height="12" rx="2" fill="#3b82f6"/>
+  
+  <!-- o - light blue -->
+  <circle cx="146" cy="65" r="4" fill="#3b82f6"/>
+  
+  <!-- .com - dark blue -->
+  <text x="165" y="70" font-family="Arial, sans-serif" font-size="10" fill="#1e40af">.com</text>
+</svg> 
