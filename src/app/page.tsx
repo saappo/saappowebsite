@@ -37,7 +37,7 @@ export default function Home() {
           <div className="text-center">
             <div className="mb-6">
               <Image
-                src="/saappo_plain.svg"
+                src="/saappo with background.png"
                 alt="Saappo - Sales Automation & Power Platform Optimization"
                 width={600}
                 height={200}
@@ -45,8 +45,8 @@ export default function Home() {
                 priority
               />
             </div>
-            <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              AI moves fast, companies need to follow... Saappo
+            <p className="text-2xl md:text-3xl text-gray-600 mb-8 max-w-3xl mx-auto font-bold tracking-wide">
+              ai moves fast. companies need to follow. saappo.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -75,6 +75,15 @@ export default function Home() {
       <section id="services" className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
+            <div className="mb-8">
+              <Image
+                src="/saappo ai pic 2.png"
+                alt="Saappo AI Solutions"
+                width={600}
+                height={400}
+                className="mx-auto rounded-lg shadow-lg"
+              />
+            </div>
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Expertise</h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               We specialize in Sales Automation and Power Platform Optimization, creating solutions that make big impacts without requiring large SaaS systems
@@ -126,6 +135,15 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
+              <div className="mb-8">
+                <Image
+                  src="/saappo ai pic.png"
+                  alt="Saappo AI Technology"
+                  width={500}
+                  height={300}
+                  className="rounded-lg shadow-lg"
+                />
+              </div>
               <h2 className="text-4xl font-bold text-gray-900 mb-6">Why Choose Saappo?</h2>
               <p className="text-lg text-gray-600 mb-6">
                 Automation has been available for over two decades, but decision-makers often evaluate ROI by comparing project costs to the expense of increasing employee salaries. However, this approach doesn't always ensure the job gets done. Today, the challenge is finding the right person for the job. This uncertainty is fueling the next wave of automation. We're at the forefront of an expansive phase where no process will remain untouched.
@@ -206,7 +224,7 @@ export default function Home() {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-green-600 mb-4">Result</h3>
-                  <p className="text-gray-700">Our solutions streamline inventory processes, ensuring real-time updates and reducing the risk of human error. This innovative approach allows you to focus on growth and efficiency, knowing your inventory is always up-to-date.</p>
+                  <p className="text-gray-700">Our solutions streamline inventory processes, ensuring real-time updates, added image capture which all reduced human error. This innovative approach allows you to focus on growth and efficiency, knowing your inventory is always up-to-date.</p>
                 </div>
               </div>
             </div>
@@ -247,23 +265,7 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Case Study 4 */}
-            <div className="bg-gray-50 p-8 rounded-xl">
-              <div className="grid lg:grid-cols-3 gap-8">
-                <div>
-                  <h3 className="text-xl font-bold text-red-600 mb-4">Problem</h3>
-                  <p className="text-gray-700">Customer's Executive Team was overloaded with "Approval" processes and emails.</p>
-                </div>
-                <div>
-                  <h3 className="text-xl font-bold text-blue-600 mb-4">Solution</h3>
-                  <p className="text-gray-700">We provided an automation system, via PowerAutomate, to minimize several steps and reduced the approval process time by 50%.</p>
-                </div>
-                <div>
-                  <h3 className="text-xl font-bold text-green-600 mb-4">Result</h3>
-                  <p className="text-gray-700">Freed up time for Executives and Admins.</p>
-                </div>
-              </div>
-            </div>
+
           </div>
         </div>
       </section>
