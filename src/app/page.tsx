@@ -1,10 +1,11 @@
 import Image from "next/image";
 import { ContactForm } from "./components/ContactForm";
 import { SaappoLogo, PoweredBySaappo } from "./components/SaappoLogo";
+import { RoboticBackground } from "./components/RoboticBackground";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
+    <div className="min-h-screen bg-gradient-to-br from-green-50 via-blue-50 to-green-100">
       {/* Navigation */}
       <nav className="bg-white/80 backdrop-blur-md border-b border-gray-200 sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -26,18 +27,14 @@ export default function Home() {
 
       {/* Hero Section */}
       <section id="home" className="relative overflow-hidden">
-        {/* Background Logo */}
-        <div className="absolute inset-0 flex items-center justify-center opacity-15 pointer-events-none">
-          <div className="w-96 h-96 md:w-[600px] md:h-[600px]">
-            <SaappoLogo size="xlarge" />
-          </div>
-        </div>
+        {/* Robotic Background */}
+        <RoboticBackground />
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 relative z-10">
           <div className="text-center">
             <div className="mb-6">
               <Image
-                src="/saappo with background.png"
+                src="/saappo with cloud_clear back.jpg"
                 alt="Saappo - Sales Automation & Power Platform Optimization"
                 width={600}
                 height={200}
@@ -65,10 +62,7 @@ export default function Home() {
           </div>
         </div>
         
-        {/* Animated background elements */}
-        <div className="absolute top-20 left-10 w-20 h-20 bg-blue-200 rounded-full opacity-20 animate-pulse"></div>
-        <div className="absolute top-40 right-20 w-16 h-16 bg-purple-200 rounded-full opacity-20 animate-pulse delay-1000"></div>
-        <div className="absolute bottom-20 left-1/4 w-12 h-12 bg-green-200 rounded-full opacity-20 animate-pulse delay-2000"></div>
+
       </section>
 
       {/* Services Section */}
