@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Quicksand } from "next/font/google";
 import "./globals.css";
 import { Navigation } from "./components/Navigation";
+import { Analytics } from "@vercel/analytics/next";
 
 const quicksand = Quicksand({
   subsets: ["latin"],
@@ -33,6 +34,7 @@ export default function RootLayout({
         <main className="min-h-screen bg-gradient-to-br from-green-50 via-blue-50 to-green-100">
           {children}
         </main>
+        <Analytics />
       </body>
     </html>
   );
