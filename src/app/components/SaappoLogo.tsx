@@ -12,7 +12,7 @@ export function SaappoLogo({ className = "", size = "medium" }: { className?: st
 
   return (
     <Image
-      src="/saappo_cloud.jpg"
+      src="/LogoMakr-2JJ5RM-300dpi copy.jpeg"
       alt="Saappo - AI Automation Engineering"
       width={dimensions.width}
       height={dimensions.height}

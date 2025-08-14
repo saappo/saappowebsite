@@ -14,7 +14,7 @@ export default function Home() {
           <div className="text-center">
             <div className="mb-6">
               <Image
-                src="/saappo with cloud_clear back.jpg"
+                src="/LogoMakr-2JJ5RM-300dpi copy.jpeg"
                 alt="Saappo - Sales Automation & Power Platform Optimization"
                 width={600}
                 height={200}
